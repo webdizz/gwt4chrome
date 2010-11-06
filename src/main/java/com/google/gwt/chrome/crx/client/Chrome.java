@@ -84,6 +84,15 @@ public class Chrome extends JavaScriptObject {
 															}-*/;
 
 	/**
+	 * Fired when a connection is made from another extension.
+	 * 
+	 * @return the {@link ConnectEvent} to assign listener
+	 */
+	public final native ConnectEvent getOnConnectExternal() /*-{
+															return this.onConnectExternal;
+															}-*/;
+
+	/**
 	 * Fired when a request is sent from either an extension process or a
 	 * content script.
 	 * 
