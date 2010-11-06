@@ -17,7 +17,6 @@ import com.google.gwt.core.ext.TreeLogger;
 import com.google.gwt.core.ext.UnableToCompleteException;
 import com.google.gwt.core.ext.typeinfo.JClassType;
 import com.google.gwt.core.ext.typeinfo.JPackage;
-import com.google.gwt.user.rebind.ClassSourceFileComposerFactory;
 
 /**
  * @author zinur
@@ -52,8 +51,6 @@ public class PageEmiterTest {
 	public void shouldQualifiedSourceName() throws UnableToCompleteException {
 		invokeCodeEmition();
 		verify(userType).getQualifiedSourceName();
-		ClassSourceFileComposerFactory f = mock(ClassSourceFileComposerFactory.class);
-		verify(f).setSuperclass(userType.getQualifiedSourceName());
 	}
 
 	/**
