@@ -1,0 +1,4 @@
+The GWT library to generate Google Chrome extensions.
+Helps to build extension for Google Chrome with GWT.
+There are custom linkers and generator with Chrome API bindings.
+As an example can be used this project https://github.com/webdizz/terciman.
