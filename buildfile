@@ -10,10 +10,7 @@ GWT_VERSION = '2.0.4'
 GWT = [
 	"#{GWT_GROUP}:gwt-dev:jar:#{GWT_VERSION}",
 	"#{GWT_GROUP}:gwt-servlet:jar:#{GWT_VERSION}",
-	"#{GWT_GROUP}:gwt-user:jar:#{GWT_VERSION}",
-        'com.googlecode.mvp4g:mvp4g:jar:1.1.0',
-        'com.google.gwt.google-apis:gwt-language:jar:1.1.0',
-        'com.googlecode.gwt-mobile-webkit:htnl5-database:jar:1.5.1'
+	"#{GWT_GROUP}:gwt-user:jar:#{GWT_VERSION}"
 ]
 POWERMOCK_VERSION = '1.4'
 TEST = [
